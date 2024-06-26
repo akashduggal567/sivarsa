@@ -25,7 +25,7 @@ export default function TestimonialCard(props) {
         bgVideo
     } = props;
 
-    return <div style={{ height: "100%" }}>
+    return <div style={{ height: "100%" }} className='fade-in'>
         <div
             style={{
                 background: backgroundColor,

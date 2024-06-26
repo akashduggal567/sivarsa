@@ -50,6 +50,7 @@ export default function Card(props) {
 
 
   return <div
+    className='fade-in'
     style={{
       height: "100%",
       cursor: `${clickable && "pointer"}`,
