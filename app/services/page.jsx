@@ -37,7 +37,7 @@ function MobileApplication({ onClick }) {
     isHeadline
     backgroundColor={"#2D68FF"}
     textColor={"#A9D6DD"}
-    title={"Mobile Application"}
+    title={"Mobile & Web Application"}
     subtitle=" We can Craft powerful and dynamic solutions"
     isNavigateable
     onClick={onClick}
@@ -59,7 +59,7 @@ function StaffingService({ onClick }) {
 
 function ServicesProvided() {
   return <Card
-    isStats
+    // isStats
     backgroundColor={"#393939"}
     textColor={"#F5F5F5"}
     title={<>

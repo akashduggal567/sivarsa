@@ -31,7 +31,10 @@ export function UICommonTitle() {
         isHeadline
         isHeadlineNumberOnly
         textColor={"#C7DFB8"}
-        title={"Design UI & UX"}
+        title={<div>
+            <div>Design</div>
+            <div>UI & UX</div>
+        </div>}
         backgroundImage={<img id="noisy_bg" src="/ui_noisy_bg.png" />}
         headlineStyle={{ position: "absolute", top: 20 }}
     />;

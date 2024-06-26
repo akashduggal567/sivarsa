@@ -42,7 +42,7 @@ function WebDevelopment({ onClick }) {
 
 function ServicesProvided() {
   return <Card
-    isStats
+    // isStats
     backgroundColor={"#393939"}
     textColor={"#F5F5F5"}
     title={<>

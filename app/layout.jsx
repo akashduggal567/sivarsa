@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 import "./globals.css";
 import Navbar from "./navbar";
+import { Providers } from './providers';
 
 
 export default function RootLayout({
@@ -10,10 +11,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Providers>
           <GridContainer>
             {children}
             <Navbar />
           </GridContainer>
+        </Providers>
       </body>
     </html>
   );

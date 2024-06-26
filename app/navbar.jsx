@@ -7,7 +7,7 @@ import Card from './Card';
 
 
 const titleFont = localFont({
-    src: './fonts/PPMondwest-Regular.otf',
+    src: './fonts/PPNeueBit-Bold.otf',
     display: 'swap',
 });
 
@@ -193,7 +193,7 @@ export default function Navbar(props) {
                     >
                         <img id="next_bg" src="/next_bg.png" />
                         <div id="next_text">
-                            Next
+                           Next
                         </div>
                     </div>
             }

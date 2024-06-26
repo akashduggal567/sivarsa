@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import localFont from 'next/font/local';
+import { Italianno } from 'next/font/google'
 // Font files can be colocated inside of `app`
 const titleFont = localFont({
     src: './fonts/PPMondwest-Regular.otf',
