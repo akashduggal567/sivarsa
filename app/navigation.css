@@ -1,0 +1,97 @@
+.brand_container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#message_button {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 0.8em;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5.833px;
+    border: 1.167px solid #202020;
+    background: #202020;
+
+    @media (max-width: 768px) {
+        right: auto;
+        left: auto;
+        top: 20%;
+        margin-top: 20px;
+        font-size: 0.5em;
+    }
+}
+
+#brand_name {
+    font-size: 2em;
+    padding: 10px;
+
+    @media (max-width: 768px) {
+        font-size: 1em;
+    }
+}
+
+#logo {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    height: 100%;
+    @media (max-width: 768px) {
+        height: 40%;
+    }
+}
+
+#prev_bg {
+    background: #000000;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    height: 100%;
+}
+
+#prev_text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 2em;
+    background: linear-gradient(270deg, #B5AAF3 -9.41%, #512B9A 102.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (max-width: 768px) {
+        font-size: 1em;
+    }
+}
+
+#next_bg {
+    background: #000000;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    height: 100%;
+}
+
+#next_text {
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    font-size: 2em;
+    background: linear-gradient(270deg, #B5AAF3 -9.41%, #512B9A 102.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (max-width: 768px) {
+        font-size: 1em;
+    }
+}
